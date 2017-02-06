@@ -1,0 +1,227 @@
+<!DOCTYPE html>  <!-- Use w3schools for reference and prototyping, if you'd like -->
+
+<html>
+<head>
+
+<title>Project Gutenberg Analysis</title>
+
+<style>
+
+h1 {
+    text-align: center;
+}
+
+table{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+td, th {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin:auto;
+    width:50%;
+}
+
+#variables {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Project Gutenberg Analysis</h1>
+
+<table class='center'>
+<tr id='variables'>
+<th onclick="sortTable(0)"> Letter </th>
+<th onclick="sortTable(1)"> Weighted Frequency</th>
+<th onclick="sortTable(2)"> Most Common Letter Location </th>
+<th onclick="sortTable(3)">Net Sentiment of Words Starting With Letter</th>
+</tr>
+<tr> 
+<td>a </td>
+<td>80286167.21 </td>
+<td>2 </td>
+<td>34860.06 </td>
+</tr> 
+<tr> 
+<td>b </td>
+<td>35594754.93 </td>
+<td>1 </td>
+<td>568487.34 </td>
+</tr> 
+<tr> 
+<td>c </td>
+<td>29137710.65 </td>
+<td>1 </td>
+<td>1266.87 </td>
+</tr> 
+<tr> 
+<td>d </td>
+<td>22656263.94 </td>
+<td>3 </td>
+<td>-448317.61 </td>
+</tr> 
+<tr> 
+<td>e </td>
+<td>16717153.75 </td>
+<td>3 </td>
+<td>223421.7 </td>
+</tr> 
+<tr> 
+<td>f </td>
+<td>31903384.28 </td>
+<td>2 </td>
+<td>744875.71 </td>
+</tr> 
+<tr> 
+<td>g </td>
+<td>14422808.74 </td>
+<td>1 </td>
+<td>1854782.02 </td>
+</tr> 
+<tr> 
+<td>h </td>
+<td>55999196.35 </td>
+<td>2 </td>
+<td>130568.13 </td>
+</tr> 
+<tr> 
+<td>i </td>
+<td>58728150.38 </td>
+<td>2 </td>
+<td>110462.49 </td>
+</tr> 
+<tr> 
+<td>j </td>
+<td>2873857.76 </td>
+<td>1 </td>
+<td>99213.89 </td>
+</tr> 
+<tr> 
+<td>k </td>
+<td>4658173.36 </td>
+<td>4 </td>
+<td>191596.48 </td>
+</tr> 
+<tr> 
+<td>l </td>
+<td>20155630.53 </td>
+<td>4 </td>
+<td>330632.41 </td>
+</tr> 
+<tr> 
+<td>m </td>
+<td>34123881.62 </td>
+<td>1 </td>
+<td>1873992.21 </td>
+</tr> 
+<tr> 
+<td>n </td>
+<td>18355962.12 </td>
+<td>2 </td>
+<td>210544.82 </td>
+</tr> 
+<tr> 
+<td>o </td>
+<td>62807300.03 </td>
+<td>2 </td>
+<td>475152.61 </td>
+</tr> 
+<tr> 
+<td>p </td>
+<td>23743343.72 </td>
+<td>1 </td>
+<td>308233.25 </td>
+</tr> 
+<tr> 
+<td>q </td>
+<td>1557556.66 </td>
+<td>1 </td>
+<td>56252.0 </td>
+</tr> 
+<tr> 
+<td>r </td>
+<td>16485452.5 </td>
+<td>3 </td>
+<td>391678.67 </td>
+</tr> 
+<tr> 
+<td>s </td>
+<td>52575600.3 </td>
+<td>1 </td>
+<td>363222.2 </td>
+</tr> 
+<tr> 
+<td>t </td>
+<td>137793615.03 </td>
+<td>1 </td>
+<td>-54942.93 </td>
+</tr> 
+<tr> 
+<td>u </td>
+<td>8933832.32 </td>
+<td>2 </td>
+<td>-155140.74 </td>
+</tr> 
+<tr> 
+<td>v </td>
+<td>5072265.19 </td>
+<td>3 </td>
+<td>204105.69 </td>
+</tr> 
+<tr> 
+<td>w </td>
+<td>59531095.78 </td>
+<td>1 </td>
+<td>286597.75 </td>
+</tr> 
+<tr> 
+<td>x </td>
+<td>17802.89 </td>
+<td>2 </td>
+<td>0.0 </td>
+</tr> 
+<tr> 
+<td>y </td>
+<td>11037699.35 </td>
+<td>1 </td>
+<td>58770.16 </td>
+</tr> 
+<tr> 
+<td>z </td>
+<td>43955.34 </td>
+<td>4 </td>
+<td>0.0 </td>
+</tr> 
+</table>
+
+<br>
+<br>
+<img align="middle" src="figure1.png">
+<br>
+<img align="middle" src="figure2.png">
+<br>
+<img align="middle" src="figure3.png">
+<br>
+<br>
+
+</html>
